@@ -8,19 +8,21 @@
   min-height: 500px;
 
   .hero {
-    max-width: 200px;
-  }
+    max-width: 400px;
+    height: 400px;
+    border-radius: 20px 20px 20px 20px;
 
+  }
   span {
     display: flex;
     gap: 25px;
     justify-content: center;
 
     a {
-      margin: 0;
 
       img {
         width: 30px;
+ 
       }
     }
   }

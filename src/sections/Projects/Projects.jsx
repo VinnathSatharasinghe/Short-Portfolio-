@@ -1,6 +1,6 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
+import viberr from '../../assets/111111-removebg-preview.png';
+import freshBurger from '../../assets/gdgdrgdgdrg.png';
 import hipsster from '../../assets/hipsster.png';
 import fitLift from '../../assets/fitlift.png';
 import ProjectCard from '../../common/ProjectCard';
@@ -12,15 +12,15 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
+          link="https://github.com/VinnathSatharasinghe/MERN_CRUD"
+          h3="MERN-TODO"
           p="Streaming App"
         />
         <ProjectCard
           src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://github.com/VinnathSatharasinghe/Biz-Creative-Web"
           h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          p="Biz-Creative-Web "
         />
         <ProjectCard
           src={hipsster}
